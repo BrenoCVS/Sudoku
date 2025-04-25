@@ -2,11 +2,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package br.com.sudoku.util;
+
+package br.com.sudoku.app;
+
 /**
  *
- * @author brenocvs
+ * @author brenocvs 🤘 
  */
+
 import br.com.sudoku.model.Board;
 import br.com.sudoku.model.Space;
 
@@ -16,7 +19,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.stream.Stream;
 
-import static br.com.sudoku.util.Boardtemplate.BOARD_TEMPLATE;
+import static br.com.sudoku.util.BoardTemplate.BOARD_TEMPLATE;
 import static java.util.Objects.isNull;
 import static java.util.Objects.nonNull;
 import static java.util.stream.Collectors.toMap;
@@ -88,7 +91,7 @@ public class Main {
 
     private static void inputNumber() {
         if (isNull(board)){
-            System.out.println("O jogo ainda não foi iniciado");
+            System.out.println("O jogo ainda não foi iniciado iniciado");
             return;
         }
 
